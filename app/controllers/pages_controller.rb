@@ -6,5 +6,9 @@ class PagesController < ApplicationController
   def show 
     @pages = 'Hello World!'
   end
+  
+  def new 
+    @pages = "Hello World!"
+  end
 end
 
