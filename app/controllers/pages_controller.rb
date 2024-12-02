@@ -3,6 +3,10 @@ class PagesController < ApplicationController
   def home
   end
 
+  def show 
+    @pages = 'Hello World!'
+  end
+  
   def new 
     @pages = "Hello World!"
   end
